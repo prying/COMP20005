@@ -1,3 +1,11 @@
+/*****************************
+ * Flynn Harrison 13/03/2019
+ * outputs the fibonacci
+ * sequence upto POP_LIMIT
+ * 
+ ****************************/
+
+
 #include <stdio.h>
 
 #define POP_LIMIT 10000000

@@ -5,6 +5,7 @@
  * scanf function
  ****************************/
 
+
 #include <stdio.h>
 #include <ctype.h>
 #include <stdbool.h>

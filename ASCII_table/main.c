@@ -1,3 +1,11 @@
+/*****************************
+ * Flynn Harrison 13/03/2019
+ * Creates a bar graph from
+ * an arbitrary lenght input
+ * 
+ ****************************/
+
+
 #include <stdio.h>
 
 #define ASCII_START 32
