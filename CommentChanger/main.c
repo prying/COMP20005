@@ -13,9 +13,9 @@ int main(int argc, char** argv)
 {
     int c = 0;
     bool in_comment = false;
-    while((c=getchar()) != EOF)
+    while((c = getchar()) != EOF)
     {
-        // Check if in comment
+        // Check if in comment 
         if (c == '/')
         {
             c = getchar();
@@ -23,19 +23,25 @@ int main(int argc, char** argv)
             {
                 in_comment = true;
                 putchar('/');
-                putchar('*');
+                c = '*';
             }
-            else 
+            else // Returne the not-comment slash
             {
                 putchar('/');
-                ungetc(c, stdin);
             }
         }
         
         if (in_comment && (c == '\n'))
         {
-            printf("*/");
+            putchar('*');
+            putchar('/');
+            putchar(' ');
             in_comment = false;
+        }
+
+        if (c == '\n')
+        {
+            printf("\\n");
         }
 
         putchar(c);
