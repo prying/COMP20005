@@ -41,7 +41,8 @@ int main(int argc, char** argv)
 
         if (c == '\n')
         {
-            printf("\\n");
+            putchar(6);
+            //printf("\\n");
         }
 
         putchar(c);
@@ -49,3 +50,4 @@ int main(int argc, char** argv)
 
     return 0;
 }
+
