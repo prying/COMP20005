@@ -1,8 +1,9 @@
 /*****************************
  * Flynn Harrison 13/03/2019
- * Gets the number of 
- * characters and lines,
- * then outputing the total
+ * a function called int_power
+ * that brings arg1 to the 
+ * power of arg2 in the 
+ * function.
  ****************************/
 
 
