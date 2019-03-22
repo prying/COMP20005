@@ -22,6 +22,7 @@ int main(int argc, char** argv)
         return 0;
     }
     
+
     // Computation block
     if ((inf1 - inf2) < 1E-6 && (inf1 - inf2) > -1E-6)
         puts("Nearly equal");
