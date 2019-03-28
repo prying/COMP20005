@@ -20,7 +20,7 @@ int main(int argc, char** argv)
     {
         if(input < pre_input)
         {
-            printf("*** value %d is smaller than %d", input, pre_input);
+            printf("*** value %d is smaller than %d\n", input, pre_input);
         }
         // Store the input 
         pre_input = input;
