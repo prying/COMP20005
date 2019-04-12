@@ -1,8 +1,8 @@
 /*****************************
  * Flynn Harrison 13/03/2019
  * Gets the number of 
- * characters and lines,
- * then outputing the total
+ * characters, lines and    
+ * words
  ****************************/
 
 
@@ -15,7 +15,7 @@ int main(int argc, char** argv)
         line_count = 1,
         char_count = 0,
         word_count = 0;
-        
+
     bool inword = false;
 
     printf("Enter text:\n");
