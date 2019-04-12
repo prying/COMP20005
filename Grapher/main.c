@@ -15,25 +15,8 @@
 int main(int argc, char** argv)
 {
     int input = 0;
-    //int no_in = 0;
 
-    // Get user imput 
-    printf("Input data, control D/Z to exit: ");
-    if (scanf("%d", &input) != 1)
-    {
-        printf("\nNot vailid data!");
-        exit(EXIT_FAILURE);    
-    }
-    
-    // Make a gap between input and output
-    puts("");
-
-    // Print out single bar graph
-    printf("%*d |",GRAPH_BORDER, input);
-    for (int i = 0; i < input && i< GRAPH_MAX; i++)
-        putchar('*');
-    puts("");
-
+    printf("enter a set between %d and %d: ", 0, GRAPH_MAX);
     while(scanf("%d", &input) == 1)
     {
         // Print out bar graph
@@ -42,6 +25,7 @@ int main(int argc, char** argv)
             putchar('*');
         puts("");
     }
+    printf("One or more invalid inputs");
 
     return 0;
 }
